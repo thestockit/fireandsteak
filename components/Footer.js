@@ -21,7 +21,15 @@ const Footer = () => {
                         </Link>
                     </div>
                     <p className=" text-[#999] font-rambla">
-                        <small>  © 2024 Fire n Steak House. All Rights Reserved
+                        <small>© 2024 Fire n Steak House. All Rights Reserved developed by{' '}
+                            <a 
+                                href="https://thestockit.com" 
+                                target="_blank"
+                                rel="noopener noreferrer nofollow"
+                                className="text-yellow-300 hover:text-white transition-colors"
+                            >
+                                The Stockit
+                            </a>
                         </small>
                     </p>
                 </div>

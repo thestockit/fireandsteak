@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen }) => {
 
                 {/* upgrade plans */}
                 <div className={`text-white text-3xl md:text-xl mx-auto mb-10 font-rambla`}>
-                    <p><span>Rezervation</span></p>
+                    <p><span>Reservation</span></p>
 
                     <h6 className='text-yellow-300'>03165089741</h6>
                 </div>
