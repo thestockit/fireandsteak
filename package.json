@@ -2,12 +2,12 @@
   "name": "fire-n-steak",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "next export"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "NODE_ENV=production next start",
+  "export": "next export"
+},
   "dependencies": {
     "framer-motion": "^11.5.4",
     "imagemin": "^9.0.0",
